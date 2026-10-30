@@ -5,10 +5,10 @@ const Hero = () => {
         <div className="hero-grid">
           <div className="hero-content">
             <h1 className="hero-title">
-              Temani Perjalanan Belajar <span>Al-Qur'an</span> dan <span>Bahasa Arab</span> Bersama SmartQSpace
+              Temani Perjalanan Belajar <span>Al-Qur'an dan Bahasa Arab</span> Bersama SmartQSpace
             </h1>
             <p className="hero-desc">
-              Pembelajaran yang personal dan bertahap, dirancang khusus untuk setiap peserta. Dari tahsin hingga tahfidz, kami mendampingi setiap langkah perjalanan belajar Al-Qur'an dan Bahasa Arab Anda.
+              Pembelajaran yang personal dan bertahap, dirancang khusus untuk setiap peserta. Dari tahsin hingga tahfidz, kami mendampingi setiap langkah perjalanan belajar Al-Qur'an dan Bahasa Arab&nbsp;Anda.
             </p>
             <div className="hero-buttons">
               <a href="#program" className="btn btn-primary btn-lg">
