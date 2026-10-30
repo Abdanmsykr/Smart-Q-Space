@@ -45,53 +45,7 @@ const Pendaftaran = () => {
             Isi formulir di bawah ini untuk memulai konsultasi dan pendaftaran. Admin kami akan segera menghubungi Anda melalui WhatsApp.
           </p>
         </div>
-        <div className="pendaftaran-grid">
-
-          {/* Info Kontak */}
-          <div className="pendaftaran-info fade-up">
-            <h3>Hubungi Kami Langsung</h3>
-            <p>Jika Anda memiliki pertanyaan atau ingin berkonsultasi sebelum mendaftar, silakan hubungi admin SmartQSpace melalui kanal berikut.</p>
-            <div className="pendaftaran-contact">
-              <div className="pendaftaran-contact-item">
-                <i className="fa-brands fa-whatsapp" style={{ background: '#e6f9f0', color: '#25D366' }}></i>
-                <div>
-                  <strong>WhatsApp</strong><br />
-                  <a href="https://wa.me/6285603769230" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--green)' }}>0856-0376-9230</a>
-                </div>
-              </div>
-              <div className="pendaftaran-contact-item">
-                <i className="fa-brands fa-instagram" style={{ background: '#fce4ec', color: '#E1306C' }}></i>
-                <div>
-                  <strong>Instagram</strong><br />
-                  <a href="https://www.instagram.com/smartqspace_?utm_source=ig_web_button_share_sheet&cplk=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--lavender-dark)' }}>@smartqspace</a>
-                </div>
-              </div>
-              <div className="pendaftaran-contact-item">
-                <i className="fa-brands fa-facebook" style={{ background: '#e3f2fd', color: '#1877F2' }}></i>
-                <div>
-                  <strong>Facebook</strong><br />
-                  <a href="https://facebook.com/smartqspace" target="_blank" rel="noopener noreferrer" style={{ color: '#1877F2' }}>smartqspace</a>
-                </div>
-              </div>
-              <div className="pendaftaran-contact-item">
-                <i className="fa-solid fa-globe" style={{ background: 'var(--mint-light)', color: 'var(--green)' }}></i>
-                <div>
-                  <strong>Website</strong><br />
-                  <span style={{ color: 'var(--green)' }}>smartqspace.co.id</span>
-                </div>
-              </div>
-            </div>
-            <a
-              href="https://wa.me/6285603769230?text=Halo%20Admin%20SmartQSpace%2C%20saya%20ingin%20berkonsultasi%20tentang%20program%20bimbingan."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-whatsapp btn-lg"
-              style={{ width: '100%', justifyContent: 'center' }}
-            >
-              <i className="fa-brands fa-whatsapp"></i> Konsultasi via WhatsApp
-            </a>
-          </div>
-
+        <div className="pendaftaran-wrapper">
           {/* Form */}
           <div className="reg-form fade-up">
             <h3><i className="fa-solid fa-pen-to-square" style={{ color: 'var(--green)' }}></i> Formulir Pendaftaran</h3>
@@ -162,7 +116,6 @@ const Pendaftaran = () => {
               </p>
             </form>
           </div>
-
         </div>
       </div>
     </section>
@@ -170,4 +123,3 @@ const Pendaftaran = () => {
 }
 
 export default Pendaftaran
-

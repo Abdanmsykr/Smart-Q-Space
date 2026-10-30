@@ -15,7 +15,7 @@ const Hero = () => {
                 <i className="fa-solid fa-book-quran"></i> Lihat Program
               </a>
               <a href="#pendaftaran" className="btn btn-secondary btn-lg">
-                Daftar Sekarang <i className="fa-solid fa-arrow-right"></i>
+                Daftar Sekarang
               </a>
             </div>
             <div className="hero-stats">
@@ -46,18 +46,6 @@ const Hero = () => {
                   decoding="async"
                 />
               </picture>
-              <div className="hero-float f1">
-                <div className="dot" style={{ background: 'var(--lavender)' }}>
-                  <i className="fa-solid fa-book-open"></i>
-                </div>
-                Tahsin &amp; Tahfidz
-              </div>
-              <div className="hero-float f2">
-                <div className="dot" style={{ background: 'var(--green)' }}>
-                  <i className="fa-solid fa-graduation-cap"></i>
-                </div>
-                Bahasa Arab
-              </div>
             </div>
           </div>
         </div>
