@@ -5,31 +5,7 @@ const FloatingWhatsApp = () => {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat WhatsApp SmartQSpace"
-      style={{
-        position: 'fixed',
-        bottom: '24px',
-        right: '24px',
-        zIndex: 999,
-        width: '60px',
-        height: '60px',
-        borderRadius: '50%',
-        background: '#25D366',
-        color: 'white',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: '28px',
-        boxShadow: '0 4px 20px rgba(37,211,102,0.4)',
-        transition: 'all 0.3s ease',
-      }}
-      onMouseOver={(e) => {
-        e.currentTarget.style.transform = 'scale(1.1)'
-        e.currentTarget.style.boxShadow = '0 6px 30px rgba(37,211,102,0.5)'
-      }}
-      onMouseOut={(e) => {
-        e.currentTarget.style.transform = 'scale(1)'
-        e.currentTarget.style.boxShadow = '0 4px 20px rgba(37,211,102,0.4)'
-      }}
+      className="floating-whatsapp"
     >
       <i className="fa-brands fa-whatsapp"></i>
     </a>
@@ -37,4 +13,3 @@ const FloatingWhatsApp = () => {
 }
 
 export default FloatingWhatsApp
-
